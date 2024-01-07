@@ -16,32 +16,29 @@ variables and methods:
 
 Write the classes and a test driver main class to test all functions mentioned above.  */
 
-package assignment5;
+package assignment05;
 
-public class Person {
-    protected String name;
-    protected String address;
+public class Main {
+    public static void main(String[] args) {
+        Person p = new Person("Sayantan", "Chandannagar");
+        System.out.println(p);
 
-    public Person() {
-        this.name = "";
-        this.address = "";
+        Person p1 = new Person("Samaita", "Chandannagar");
+        System.out.println(p1);
+
+        Student s = new Student("Shreya", "Kolkata", "B.Tech", "2024", 500000);
+        System.out.println(s);
+
+        Staff st = new Staff("Mehuli", "Kolkata", "IIT Kharagpur", 100000);
+        System.out.println(st);
+
     }
-
-    public Person(String name, String address) {
-        this.setPerson(name, address);
-    }
-
-    public void setPerson(String name, String address) {
-        this.name = name;
-        this.address = address;
-    }
-
-    public String toString() {
-        return "Person[Name=" + this.name + ", Address=" + this.address + "]";
-    }
-
-    // public static void main(String[] args) {
-    //     Person p = new Person("Sayantan", "Kolkata");
-    //     System.out.println(p);
-    // }
 }
+
+// Output:
+/*
+Person[Name=Sayantan, Address=Chandannagar]
+Person[Name=Samaita, Address=Chandannagar]
+Person[Name=Shreya, Adress=Kolkata, Program=B.Tech, Year=2024, Fees=500000.0]
+Person[Name=Mehuli, Adress=Kolkata, School=IIT Kharagpur, Pay=100000.0]
+ */

@@ -15,7 +15,7 @@ variables and methods:
         “Person[name=?,address=?,School=?,Pays=?”. 
 */
 
-package assignment5;
+package assignment05;
 
 public class Staff extends Person{
     private String school;

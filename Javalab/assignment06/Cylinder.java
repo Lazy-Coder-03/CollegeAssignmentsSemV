@@ -6,26 +6,30 @@
 // override method ‘getVolume() : double’ to calculate volume of cylinder taking ‘side’ variable of base 
 // class as ‘radius’ and print it. 
 
-package assignment6;
 
-public class Square {
-    protected double side;
+package assignment06;
 
-    public Square() {
-        this.side = 0.0;
+public class Cylinder extends Square {
+    private double height;
+
+    public Cylinder() {
+        super();
+        this.height = 0.0;
     }
 
-    public Square(double side) {
-        this.side = side;
+    public Cylinder(double side, double height) {
+        super(side);
+        this.height = height;
     }
 
     public double getVolume() {
-        return this.side * this.side * this.side;
+        return super.side*super.side * this.height * Math.PI;
     }
 
     // public static void main(String[] args) {
-    //     Square s = new Square(10);
-    //     System.out.println(s.getVolume());
+    //     Cylinder c = new Cylinder(10, 10);
+    //     System.out.println(c.getVolume());
     // }
 
+    
 }

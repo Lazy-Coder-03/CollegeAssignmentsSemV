@@ -5,7 +5,7 @@
 //TODO: Create a database named 'JavaStudentDatabase' and a table named 'Student_info' with the following fields :
 //have this error: java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/JavaStudentDatabase
 
-package assignment9_todo;
+package assignment09_todo;
 
 import java.sql.*;
 import java.util.Scanner;

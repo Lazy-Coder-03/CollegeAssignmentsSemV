@@ -2,7 +2,7 @@
 
 // Write a program that accepts a matrix of size m*n from the user and finds the minimum element of each row and each column.(using classes concept, can be done without classes too but oop is the main focus)
 
-package assignment2;
+package assignment02;
 
 public class Main {
     public static void main(String[] args) {

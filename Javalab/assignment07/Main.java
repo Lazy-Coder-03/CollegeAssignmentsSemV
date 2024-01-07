@@ -4,7 +4,7 @@
 functionalities ‘speedUp(value)’ and ‘changeGear(value) in an interface. The class which is 
 implementing the interface should implement all the methods in the interface. */
 
-package assignment7;
+package assignment07;
 
 public class Main {
     public static void main(String[] args) {

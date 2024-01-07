@@ -12,7 +12,7 @@
 // given (x, y) coordinates, Write the MyPoint class. Also write a test driver (called TestMyPoint) to test 
 // all the public methods defined in the class. 
 
-package assignment4;
+package assignment04;
 
 public class MyPoint {
     private int x;

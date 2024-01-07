@@ -3,7 +3,7 @@
 // Write a program in java that handles both ‘ArrayIndexOutOfBoundsException’ and 
 // ‘ArithmeticException’.
 
-package assignment8;
+package assignment08;
 
 import java.util.Scanner;
 

@@ -13,7 +13,7 @@
 // all the public methods defined in the class. 
 
 
-package assignment4;
+package assignment04;
 
 public class TestMyPoint {
     public static void main(String[] args) {

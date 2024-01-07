@@ -2,7 +2,7 @@
 
 // write a program to accept a string from the user and remove all the consonants from the string and print the string without consonants.
 
-package assignment3;
+package assignment03;
 
 import java.util.Scanner;
 

@@ -6,7 +6,7 @@
 // override method ‘getVolume() : double’ to calculate volume of cylinder taking ‘side’ variable of base 
 // class as ‘radius’ and print it. 
 
-package assignment6;
+package assignment06;
 import java.util.Scanner;
 
 public class Main {

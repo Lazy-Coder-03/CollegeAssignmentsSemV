@@ -2,7 +2,7 @@
 
 // Write a program to sort the first half of the array in ascending order and the second half of the array in descending order.
 
-package assignment1;
+package assignment01;
 import java.util.Scanner;
 
 public class Main {

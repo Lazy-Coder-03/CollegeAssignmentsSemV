@@ -16,7 +16,7 @@ variables and methods:
 
 Write the classes and a test driver main class to test all functions mentioned above.  */
 
-package assignment5;
+package assignment05;
 
 public class Student extends Person {
     private String program;
