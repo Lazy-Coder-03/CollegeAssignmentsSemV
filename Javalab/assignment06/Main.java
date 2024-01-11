@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Volume of Cylinder is :" + c.getVolume());
         System.out.print("Enter the Side of the Cube: ");
         double side = sc.nextDouble();
-        Square s = new Square(side);
+        Cube s = new Cube(side);
         System.out.println("Volume of Cube is :" + s.getVolume());
         sc.close();
     }

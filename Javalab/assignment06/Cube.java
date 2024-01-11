@@ -8,14 +8,14 @@
 
 package assignment06;
 
-public class Square {
+public class Cube {
     protected double side;
 
-    public Square() {
+    public Cube() {
         this.side = 0.0;
     }
 
-    public Square(double side) {
+    public Cube(double side) {
         this.side = side;
     }
 

@@ -9,7 +9,7 @@
 
 package assignment06;
 
-public class Cylinder extends Square {
+public class Cylinder extends Cube {
     private double height;
 
     public Cylinder() {
