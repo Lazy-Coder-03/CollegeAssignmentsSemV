@@ -27,7 +27,7 @@ public class Main {
             for (int i = 0; i < n; i++) {
                 System.out.print(arr[i] + " ");
             }
-        } catch (NegativeSizeException e) {
+        } catch (Exception e) {
             System.out.println(e);
         } finally {
             sc.close();
