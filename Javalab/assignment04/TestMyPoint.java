@@ -1,4 +1,4 @@
-//JAVA Assigments 4 for CMS-A CC-5 2024 (OOP with Java) by www.github.com/lazy-coder-03 (Sayantan Ghosh, Roll 335)
+//JAVA Assigments 4 for CMS-A CC-5 2024 (OOP with Java) by https://www.github.com/lazy-coder-03 (Sayantan Ghosh, Roll 335)
 
 // A class called MyPoint, which models a 2D point with x and y coordinates. It contains: 
 // • Two instance variables x (int) and y (int). 
@@ -21,6 +21,7 @@ public class TestMyPoint {
         System.out.println("p1: " + p1);
         p1.setXY(3, 4);
         System.out.println("p1: " + p1);
+        //System.out.printf("Distance of p1 from (5,6) : %.2f\n", p1.distance(5, 6));
         System.out.println("Distance of p1 from (5,6) : " + p1.distance(5, 6));
         MyPoint p2 = new MyPoint(8, 6);
         System.out.println("p2: " + p2);

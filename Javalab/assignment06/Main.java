@@ -1,4 +1,4 @@
-//JAVA Assigments 6 for CMS-A CC-5 2024 (OOP with Java) by www.github.com/lazy-coder-03 (Sayantan Ghosh, Roll 335)
+//JAVA Assigments 6 for CMS-A CC-5 2024 (OOP with Java) by https://www.github.com/lazy-coder-03 (Sayantan Ghosh, Roll 335)
 
 // Create a base class ‘Square’ having instance variable side:double. Initiate variable using constructor, 
 // a method ‘getVolume() : double’ that calculates volume and print it. Create a derived class ‘Cylinder’ 

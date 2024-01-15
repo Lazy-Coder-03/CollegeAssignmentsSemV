@@ -1,4 +1,4 @@
-//JAVA Assigments 19 for CMS-A CC-5 2024 (OOP with Java) by www.github.com/lazy-coder-03 (Sayantan Ghosh, Roll 335)
+//JAVA Assigments 19 for CMS-A CC-5 2024 (OOP with Java) by https://www.github.com/lazy-coder-03 (Sayantan Ghosh, Roll 335)
 
 
 // 20.  Write a program in java with class Employee and do the following operations on it 

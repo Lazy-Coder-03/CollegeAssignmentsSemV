@@ -1,4 +1,4 @@
-//JAVA Assigments 22 for CMS-A CC-5 2024 (OOP with Java) by www.github.com/lazy-coder-03 (Sayantan Ghosh, Roll 335)
+//JAVA Assigments 22 for CMS-A CC-5 2024 (OOP with Java) by https://www.github.com/lazy-coder-03 (Sayantan Ghosh, Roll 335)
 
 // Create a class Student with following operations  
 // a) create parameterized constructor to initialize the objects. 
