@@ -12,12 +12,16 @@ def main():
     print(f"The product of the numbers is: {num1*num2}")
     print(f"The difference of the numbers is: {num1-num2}")
     print(f"The GCD of the numbers is: {gcd(num1,num2)}")
+    # print(f"The LCM of the numbers is: {lcm(num1,num2)}")
 
 def gcd(num1,num2):
     #non-recursive
     while num1 != 0:
         num1,num2 = num2%num1,num1
     return num2
+
+# def lcm(num1,num2):
+#     return int(num1*num2/gcd(num1,num2))
 
 
 if __name__ == "__main__":
