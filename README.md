@@ -44,7 +44,7 @@ Refer to the Java Assignments 5th Sem.pdf for the assignments.
 ### Running the Java Assignments
 For each Java assignment, navigate to the respective directory and follow the instructions provided in the assignment file (example assignment01).
 ```bash
-cd JavaLab/assignment04
+cd Javalab/assignment04
 ```
 ### Run this inside the package to compile and run the code.
 
