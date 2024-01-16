@@ -1,7 +1,18 @@
+# Ignore Word documents and PDFs
 *.docx
 *.pdf
+
+# Ignore Visual Studio Code settings
 .vscode
+
+# Ignore the 'notReq' directory
 notReq
+
+# Ignore the 'TestJava' directory
 TestJava
+
+# Ignore the 'template.py' file
 template.py
+
+# Ignore Python bytecode cache
 __pycache__
