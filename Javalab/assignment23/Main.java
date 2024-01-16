@@ -25,11 +25,11 @@ public class Main {
         Manager manager3 = new Manager("Jasper", 109, 10000, "Finance");
         Clerk clerk7 = new Clerk("Jade", 110, 9000, "Finance");
         Clerk clerk8 = new Clerk("Jasper", 111, 5500, "Finance");   
-        Clerk clerk9 = new Clerk("Jasmine", 112, 6300, "Finance");
 
 
 
-        Employee[] employees = {manager1, clerk1, clerk2, clerk3, manager2, clerk4, clerk5, clerk6, manager3, clerk7, clerk8, clerk9};
+
+        Employee[] employees = {manager1, clerk1, clerk2, clerk3, manager2, clerk4, clerk5, clerk6, manager3, clerk7, clerk8};
 
         for (Employee employee : employees) {
             employee.calculateNetSalary();

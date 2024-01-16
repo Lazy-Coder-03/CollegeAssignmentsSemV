@@ -7,6 +7,7 @@ def main():
     stack = []
     queue = []
     while True:
+        print("--------------------------")
         print("1. Push to stack")
         print("2. Pop from stack")
         print("3. Push to queue")
@@ -41,3 +42,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#output
+'''
+1. Push to stack
+2. Pop from stack
+3. Push to queue
+4. Pop from queue
+5. Exit
+Enter your choice: 1
+Enter the element: 1
+Current stack: ['1']
+Current queue: []'''

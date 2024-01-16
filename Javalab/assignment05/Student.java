@@ -42,12 +42,8 @@ public class Student extends Person {
     }
 
     public String toString() {
-        return "Person[Name=" + super.name + ", Adress="+super.address + ", Program=" + this.program
+        return "Student[Name=" + super.name + ", Adress="+super.address + ", Program=" + this.program
                 + ", Year=" + this.year + ", Fees=" + this.fees + "]";
     }
 
-    // public static void main(String[] args) {
-    // Student s = new Student("Sayantan", "Kolkata", "B.Tech", "2024", 100000);
-    // System.out.println(s);
-    // }
 }

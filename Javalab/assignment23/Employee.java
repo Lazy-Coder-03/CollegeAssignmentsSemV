@@ -28,6 +28,4 @@ public abstract class Employee {
         System.out.println("Net Salary: " + this.netSalary);
         System.out.println("----------------------------------------------------------------");
     }
-
-    
 }

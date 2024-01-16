@@ -7,6 +7,7 @@
 // class as ‘radius’ and print it. 
 
 package assignment06;
+
 import java.util.Scanner;
 
 public class Main {
@@ -24,5 +25,12 @@ public class Main {
         System.out.println("Volume of Cube is :" + s.getVolume());
         sc.close();
     }
-    
+
 }
+
+// Output:
+// Enter the Radius of the Cylinder: 4
+// Enter the Height of the Cylinder: 8
+// Volume of Cylinder is :402.1238596594935
+// Enter the Side of the Cube: 9
+// Volume of Cube is :729.0

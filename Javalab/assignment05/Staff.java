@@ -37,13 +37,12 @@ public class Staff extends Person{
     }
 
     public String toString() {
-        return "Person[Name=" + super.name + ", Adress="+super.address + ", School=" + this.school
+        return "Staff[Name=" + super.name + ", Adress=" + super.address + ", School=" + this.school
                 + ", Pay=" + this.pay + "]";
     }
+}
 
     // public static void main(String[] args) {
     //     Staff s = new Staff("Sayantan", "Kolkata", "IIT Kharagpur", 100000);
     //     System.out.println(s);
     // }
-
-}

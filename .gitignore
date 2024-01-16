@@ -1,6 +1,5 @@
 # Ignore Word documents and PDFs
-*.docx
-*.pdf
+
 
 # Ignore Visual Studio Code settings
 .vscode

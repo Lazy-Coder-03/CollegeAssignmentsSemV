@@ -32,17 +32,18 @@ def main():
         print("Pattern found:", matchres.group())
     else:
         print("Pattern not found")
-    # Output: Pattern not found
-
-    # Note:
-    # Use re.search() if you want to find a pattern anywhere in the string.
-    # Use re.match() if you want to find a pattern only at the beginning of the string
-
+    
 if __name__ == "__main__":
     main()
     
 # Output:
 #     ['Hello', 'World', 'How', 'are', 'you']
 #     Hello World How are you
+#     Pattern found: fox
+#     Pattern not found
+
+#Output:
+#     ['my', 'name', 'is', 'sayantan', 'ghosh']
+#     my name is sayantan ghosh
 #     Pattern found: fox
 #     Pattern not found
