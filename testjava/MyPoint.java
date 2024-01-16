@@ -1,4 +1,4 @@
-package testjava;
+package TestJava;
 
 public class MyPoint {
     private int x;
