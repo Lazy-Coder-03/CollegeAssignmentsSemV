@@ -10,9 +10,9 @@ def quickSort(arr):
         return arr
     else:
         pivot = arr[0]
-        less_than_pivot = [x for x in arr[1:] if x <= pivot]
-        greater_than_pivot = [x for x in arr[1:] if x > pivot]
-        return quickSort(less_than_pivot) + [pivot] + quickSort(greater_than_pivot)
+        less_than_pivot = [x for x in arr[1:] if x <= pivot]#list comprehension
+        greater_than_pivot = [x for x in arr[1:] if x > pivot]#list comprehension
+        return quickSort(less_than_pivot) + [pivot] + quickSort(greater_than_pivot)#list concatenation
 
 
 # Merge sort

@@ -1,11 +1,13 @@
 # Ignore Word documents and PDFs
-
+*.docx
+*.pdf
+*.zip
 
 # Ignore Visual Studio Code settings
 .vscode
 
 # Ignore the 'notReq' directory
-notReq
+
 
 # Ignore the 'TestJava' directory
 TestJava
